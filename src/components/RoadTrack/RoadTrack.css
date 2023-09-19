@@ -1,0 +1,30 @@
+.roadContainer {
+	position: absolute;
+    display: grid;
+    grid-template-columns: repeat(21, 70px); /* Adjust the number of columns and width as needed */
+    grid-gap: 12px; /* Adjust the gap between grid items */
+    justify-content: center; /* Center the grid horizontally */
+    align-content: center; /* Center the grid vertically */
+    margin: 20px auto; /
+}
+
+  /* Grid item styles */
+  .road-block {
+    width: 70px; /* Adjust the width of each grid item */
+    height: 70px; /* Adjust the height of each grid item */
+    background-color: #4e4e4e4a; /* Change the background color as desired */
+    color: #ffffff39; /* Text color */
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem; /* Adjust the font size */
+    font-weight: bold;
+    border-radius: 5px; /* Add rounded corners */
+/* Add a border with a different color */
+  }
+  
+
+.car {
+    color: #fff;
+}
