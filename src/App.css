@@ -29,13 +29,33 @@
 }
 
 /* Car Parking */
+.park-car-spot {
+	height: 125px;
+
+	width: 100px;
+	border-right: 3px solid #8e8e8e;
+	border-left: 3px solid #8e8e8e;
+	border-bottom: 3px solid #8e8e8e;
+}
+
+.activecar {
+	background: #7eff8b2a;
+	box-shadow: 0px 4px 250px 20px #7eff8b;
+	border-right: 3px solid #7eff8b;
+	border-left: 3px solid #7eff8b;
+	border-bottom: 3px solid #7eff8b;
+}
 
 .carParkingLeft {
 	position: absolute;
+	display: flex;
+	flex-direction: row;
 }
 
 .carParkingRight {
 	position: absolute;
+	display: flex;
+	flex-direction: row;
 }
 .flip {
 	transform: rotate(180deg);
@@ -43,6 +63,6 @@
 
 .unflip {
 	position: relative;
-	top: -110px;
-	left: -468px;
+	top: -130px;
+	left: -423px;
 }
